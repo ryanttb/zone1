@@ -1,6 +1,4 @@
 class MimeTypeCategoryIconUploader < CarrierWave::Uploader::Base
-  include CarrierWave::RMagick
-
   storage :file
 
   process :resize_to_fill => [200,200]

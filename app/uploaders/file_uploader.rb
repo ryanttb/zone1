@@ -1,6 +1,4 @@
 class FileUploader < CarrierWave::Uploader::Base
-  include CarrierWave::RMagick
-
   storage :file
 
   version :thumbnail, :if => :wants_thumbnail? do
