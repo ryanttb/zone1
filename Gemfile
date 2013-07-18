@@ -17,7 +17,7 @@ gem 'rmagick'
 gem 'rubyzip'
 gem 'resque', :require => "resque/server"
 gem 'execjs'
-gem 'therubyracer'
+gem 'therubyracer', "0.11.0beta1"
 gem 'rake'
 gem 'paranoia'
 gem 'sword2ruby'
