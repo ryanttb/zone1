@@ -2,6 +2,7 @@ config/database.yml
 config/sunspot.yml
 config/resque.yml
 *.swp
+*.lock
 .bundle
 .sass-cache/
 .rvmrc
